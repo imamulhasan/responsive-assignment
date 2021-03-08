@@ -1,0 +1,97 @@
+.font-style{
+    font-family: 'Anton', sans-serif;
+    color: rgb(253, 194, 85);
+    font-size: 60px;
+}
+.font-style2{
+    font-family: 'Anton', sans-serif;
+    color: rgb(50, 50, 102);
+    font-size: 60px;
+     
+}
+.font-style3{
+    font-family: 'Anton', sans-serif;
+    color: rgb(50, 50, 102); 
+      
+}
+.card-style{
+    border: 0;
+    border-radius: 20px;
+}
+.jacket-frame{
+    margin: 0 auto;
+}
+.jacket{
+    border-radius: 20px;
+    margin: 20px auto;
+    height: 350px;
+    width: 300px;
+    background-color: rgb(236, 236, 236);
+  
+}
+.font-style4{
+    font-family: 'Anton', sans-serif;
+    color: rgb(50, 50, 102);
+    font-size: 25px;   
+}
+h3{
+    color: rgb(253, 194, 85);
+    font-size: 30px;    
+}
+.fourth-part{
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+.last-card{
+    width: 100%;
+    border:0;
+    background-color:white;
+    padding:10px 0  
+}
+.last-logo{
+    width: 50%;
+}
+.last-text{
+    color: rgb(50, 50, 102);
+    font-size: 30px;  
+}
+
+@media (max-width:992px){
+    .font-style3{
+        font-family: 'Anton', sans-serif;
+        color: rgb(50, 50, 102); 
+        text-align: center;  
+    }
+}
+@media (max-width:1200px){
+    .jacket{
+        border-radius: 20px;
+        margin: 20px auto;
+        height: 300px;
+        width: 250px;
+        background-color: rgb(236, 236, 236);     
+}
+@media (max-width:992px){
+    .jacket{
+        border-radius: 20px;
+        margin: 20px auto;
+        height: 200px;
+        width: 150px;
+        background-color: rgb(236, 236, 236);     
+}
+@media (max-width:668px){
+    .jacket{
+        border-radius: 20px;
+        margin: 20px auto;
+        height: 300px;
+        width: 275px;
+        background-color: rgb(236, 236, 236);     
+}
+@media (max-width:668px){
+    .last-logo{
+      height:100px;
+      width: 100px;
+    }
+    
+}
